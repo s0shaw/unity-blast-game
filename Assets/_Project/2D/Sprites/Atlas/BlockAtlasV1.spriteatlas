@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlockAtlasV1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7016ea521a174bc42870aefd2bebfe54, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f62ce430e67f3db499734dd910c21306: 21300000
+    - 520d03503682de84087f6dd6860f6713: 21300000
+    - ce3c9801e4a0ebf42be398955f67012b: 21300000
+    - a69be921f4256a143a8fbe26227d4868: 21300000
+    - 41090f61426bdd542a0497d287693f4f: 21300000
+    - cefdb82288922e248aca81218124cc9b: 21300000
+    - cc1f0c529994d9043a909456c52dee24: 21300000
+    - c88e71d2972829c419962c50b4a5c4fa: 21300000
+    - 03ce2ae42d8e35146811dc6676e6625a: 21300000
+    - b4f96ea74d111394fab476298cd15c63: 21300000
+    - 2c81993884d904e4d84da28c0cdf45c9: 21300000
+    - e3c81798a7920c948b4ed6d921fad7ee: 21300000
+    - 3b17c77a7523f9c41971c87a19f8681d: 21300000
+    - 03e7320b000ab6242a5f2c09b2631929: 21300000
+    - a2dadb4beaae26d4090c50e70a339c5f: 21300000
+    - 0173ed5b81c3939488f1def0e132ff1e: 21300000
+    - 45ad83fbe02c34a4fadaacb339b59938: 21300000
+    - 394699ac0d8acf7429b50b444c2b019e: 21300000
+    - 60c7790e61a717d4fbed120591d636f7: 21300000
+    - e86fd5cebdfea574a954260b37d8fd22: 21300000
+    - a697a6fe55390cf44bf2407f6a904c14: 21300000
+    - 915f69bfb6b52564f867e3cf56bde718: 21300000
+    - 775fa3ff45cad64408e6c86e7e68d609: 21300000
+    - 4948cdff5a7ac2740b445011cb641c3c: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f62ce430e67f3db499734dd910c21306, type: 3}
+  - {fileID: 21300000, guid: 520d03503682de84087f6dd6860f6713, type: 3}
+  - {fileID: 21300000, guid: ce3c9801e4a0ebf42be398955f67012b, type: 3}
+  - {fileID: 21300000, guid: a69be921f4256a143a8fbe26227d4868, type: 3}
+  - {fileID: 21300000, guid: 41090f61426bdd542a0497d287693f4f, type: 3}
+  - {fileID: 21300000, guid: cefdb82288922e248aca81218124cc9b, type: 3}
+  - {fileID: 21300000, guid: cc1f0c529994d9043a909456c52dee24, type: 3}
+  - {fileID: 21300000, guid: c88e71d2972829c419962c50b4a5c4fa, type: 3}
+  - {fileID: 21300000, guid: 03ce2ae42d8e35146811dc6676e6625a, type: 3}
+  - {fileID: 21300000, guid: b4f96ea74d111394fab476298cd15c63, type: 3}
+  - {fileID: 21300000, guid: 2c81993884d904e4d84da28c0cdf45c9, type: 3}
+  - {fileID: 21300000, guid: e3c81798a7920c948b4ed6d921fad7ee, type: 3}
+  - {fileID: 21300000, guid: 3b17c77a7523f9c41971c87a19f8681d, type: 3}
+  - {fileID: 21300000, guid: 03e7320b000ab6242a5f2c09b2631929, type: 3}
+  - {fileID: 21300000, guid: a2dadb4beaae26d4090c50e70a339c5f, type: 3}
+  - {fileID: 21300000, guid: 0173ed5b81c3939488f1def0e132ff1e, type: 3}
+  - {fileID: 21300000, guid: 45ad83fbe02c34a4fadaacb339b59938, type: 3}
+  - {fileID: 21300000, guid: 394699ac0d8acf7429b50b444c2b019e, type: 3}
+  - {fileID: 21300000, guid: 60c7790e61a717d4fbed120591d636f7, type: 3}
+  - {fileID: 21300000, guid: e86fd5cebdfea574a954260b37d8fd22, type: 3}
+  - {fileID: 21300000, guid: a697a6fe55390cf44bf2407f6a904c14, type: 3}
+  - {fileID: 21300000, guid: 915f69bfb6b52564f867e3cf56bde718, type: 3}
+  - {fileID: 21300000, guid: 775fa3ff45cad64408e6c86e7e68d609, type: 3}
+  - {fileID: 21300000, guid: 4948cdff5a7ac2740b445011cb641c3c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Pink_B
+  - Red_Default
+  - Pink_Default
+  - Blue_B
+  - Green_A
+  - Purple_B
+  - Purple_A
+  - Purple_Default
+  - Red_A
+  - Yellow_C
+  - Pink_A
+  - Yellow_Default
+  - Green_C
+  - Blue_C
+  - Yellow_A
+  - Blue_A
+  - Green_Default
+  - Yellow_B
+  - Pink_C
+  - Blue_Default
+  - Red_C
+  - Red_B
+  - Green_B
+  - Purple_C
+  m_RenderDataMap: {}
+  m_Tag: BlockAtlasV1
+  m_IsVariant: 0
