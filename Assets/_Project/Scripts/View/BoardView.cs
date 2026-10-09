@@ -33,6 +33,8 @@ namespace GemBlast.View
 
         private Board _board;
         private BlastEffects _effects;
+        private float _halfWidth, _halfHeight, _baseOrthoSize;
+        private int _lastScreenW, _lastScreenH;
 
         public void Initialize(Board board)
         {
@@ -48,16 +50,34 @@ namespace GemBlast.View
             
             transform.position = new Vector3(offsetX, offsetY, -1f);
             
+            _halfWidth = totalWidth / 2f + 0.5f;
+            _halfHeight = totalHeight / 2f + 1f;
+
             Camera cam = Camera.main;
             if (cam != null)
             {
                  var pos = cam.transform.position;
                  cam.transform.position = new Vector3(pos.x, pos.y, -10f);
-
-                 float neededHeight = totalHeight / 2f + 1f;
-                 if (cam.orthographicSize < neededHeight)
-                     cam.orthographicSize = neededHeight;
+                 _baseOrthoSize = cam.orthographicSize;
+                 FitCamera();
             }
+        }
+
+        // Keep the whole board visible at any resolution / aspect ratio.
+        private void Update()
+        {
+            if (_board == null || (Screen.width == _lastScreenW && Screen.height == _lastScreenH)) return;
+            FitCamera();
+        }
+
+        private void FitCamera()
+        {
+            Camera cam = Camera.main;
+            if (cam == null) return;
+
+            _lastScreenW = Screen.width;
+            _lastScreenH = Screen.height;
+            cam.orthographicSize = Mathf.Max(_baseOrthoSize, _halfHeight, _halfWidth / cam.aspect);
         }
 
         public void Clear()
