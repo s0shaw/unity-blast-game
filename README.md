@@ -5,7 +5,7 @@
 
 A tile-blast puzzle game built with Unity 6. Tap a group of two or more connected same-colored gems to blast it. Gems above fall to fill the gap, new ones drop in from the top, and each gem's icon upgrades with the size of the group it belongs to. You have a fixed number of moves to reach the highest score you can.
 
-[![Gameplay, click to watch](docs/gameplay.jpg)](https://muratfatihdemirel.me/media/gemblast.mp4)
+[![Gameplay](docs/gameplay.gif)](https://muratfatihdemirel.me/media/gemblast.mp4)
 
 ## Features
 
