@@ -1,6 +1,5 @@
 # GemBlast
 
-[![Tests](https://github.com/s0shaw/unity-blast-game/actions/workflows/test.yml/badge.svg)](https://github.com/s0shaw/unity-blast-game/actions/workflows/test.yml)
 ![Unity](https://img.shields.io/badge/Unity-6000.2-black?logo=unity)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
@@ -67,7 +66,7 @@ Assets/_Project/Scripts
 
 ## Tests
 
-39 EditMode tests cover `MatchFinder`, `BoardMechanics` and `RuleEngine`, and run on every push through GitHub Actions.
+39 EditMode tests cover `MatchFinder`, `BoardMechanics` and `RuleEngine`.
 
 Run them locally from **Window > General > Test Runner > EditMode > Run All**.
 
@@ -78,10 +77,6 @@ Run them locally from **Window > General > Test Runner > EditMode > Run All**.
 3. Open `Assets/_Project/Scenes/Gameplay.unity` and press Play.
 
 Prebuilt Windows binaries are attached to each [release](https://github.com/s0shaw/unity-blast-game/releases).
-
-## CI setup
-
-The workflows use [GameCI](https://game.ci). To enable them on a fork, add the `UNITY_LICENSE`, `UNITY_EMAIL` and `UNITY_PASSWORD` repository secrets (see the [activation guide](https://game.ci/docs/github/activation)), and set **Settings > Pages > Source** to **GitHub Actions**.
 
 ## Tech
 
