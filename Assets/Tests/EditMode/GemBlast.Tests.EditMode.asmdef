@@ -1,0 +1,24 @@
+{
+    "name": "GemBlast.Tests.EditMode",
+    "rootNamespace": "GemBlast.Tests",
+    "references": [
+        "GUID:39be0378935e0974c8d18ef955eee2a8",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
