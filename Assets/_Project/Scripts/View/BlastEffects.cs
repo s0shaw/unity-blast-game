@@ -5,10 +5,6 @@ using PrimeTween;
 
 namespace GemBlast.View
 {
-    /// <summary>
-    /// Pooled, code-only blast effects: small sprite shards that fly out of
-    /// each blasted block and a floating score popup. No scene setup needed.
-    /// </summary>
     public class BlastEffects
     {
         private const int ShardsPerBlock = 4;

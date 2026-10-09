@@ -1,14 +1,12 @@
 # GemBlast
 
-[![Tests](https://github.com/s0shaw/GemBlast/actions/workflows/test.yml/badge.svg)](https://github.com/s0shaw/GemBlast/actions/workflows/test.yml)
+[![Tests](https://github.com/s0shaw/unity-blast-game/actions/workflows/test.yml/badge.svg)](https://github.com/s0shaw/unity-blast-game/actions/workflows/test.yml)
 ![Unity](https://img.shields.io/badge/Unity-6000.2-black?logo=unity)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A tile-blast puzzle game built with Unity 6. Tap a group of two or more connected same-colored gems to blast it. Gems above fall to fill the gap, new ones drop in from the top, and each gem's icon upgrades with the size of the group it belongs to. You have a fixed number of moves to reach the highest score you can.
 
 <!-- Add a gameplay GIF here: ![Gameplay](docs/gameplay.gif) -->
-
-**[Play in the browser](https://s0shaw.github.io/GemBlast/)** (WebGL build, deployed from `main`)
 
 ## Features
 
@@ -79,7 +77,7 @@ Run them locally from **Window > General > Test Runner > EditMode > Run All**.
 2. Clone the repository and open the folder with Unity Hub. PrimeTween is restored from the npm registry automatically.
 3. Open `Assets/_Project/Scenes/Gameplay.unity` and press Play.
 
-Prebuilt Windows binaries are attached to each [release](https://github.com/s0shaw/GemBlast/releases).
+Prebuilt Windows binaries are attached to each [release](https://github.com/s0shaw/unity-blast-game/releases).
 
 ## CI setup
 

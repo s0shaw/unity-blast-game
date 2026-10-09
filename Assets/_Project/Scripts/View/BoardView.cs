@@ -63,7 +63,6 @@ namespace GemBlast.View
             }
         }
 
-        // Keep the whole board visible at any resolution / aspect ratio.
         private void Update()
         {
             if (_board == null || (Screen.width == _lastScreenW && Screen.height == _lastScreenH)) return;
