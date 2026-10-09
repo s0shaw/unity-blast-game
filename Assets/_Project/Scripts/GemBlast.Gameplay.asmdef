@@ -1,0 +1,19 @@
+{
+    "name": "GemBlast.Gameplay",
+    "rootNamespace": "GemBlast",
+    "references": [
+        "GemBlast.Core",
+        "Unity.TextMeshPro",
+        "PrimeTween.Runtime",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
